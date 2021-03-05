@@ -56,3 +56,8 @@
   margin-left: 20px;
 }
 
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
