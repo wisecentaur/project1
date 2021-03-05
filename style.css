@@ -13,7 +13,7 @@
   height: 100vh;
 }
 
-.navbar {
+.header_container {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -40,6 +40,7 @@
 .menu_right{
   flex-direction: row;
   margin-top: 80px;
+  margin-right: 200px;
 }
 
 .img1 {
@@ -55,9 +56,3 @@
   margin-left: 20px;
 }
 
-.products {
-  display: flex;
-  text-align: center;
-  padding-top: 10px;
-  padding-right: 500px;
-}
