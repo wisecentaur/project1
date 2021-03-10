@@ -169,11 +169,16 @@
 
 .organization {
   display: flex;
-  margin-top: 350px;
+  margin-top: 400px;
 }
 
 .computer1 {
-  margin-top: 300px;
+  display: flex;
+  margin-top: 190px;
+  height: 100vh;
+  Align-items: center;
+  justify-content: space-around;
+  flex-direction: row-reverse;
 }
 
 .computer {
@@ -183,9 +188,114 @@
 .computer_text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-left: 190px;
 }
 
 .computer_img {
-  margin-left: 600px;
+  margin-left: 100px;
 }
+
+.computer_text h2 {
+  color: #252B42;
+  font-size: 48px;
+  font-weight: lighter;
+  width: 300px;
+}
+
+.computer_text h4 {
+  font-size: 24px ;
+  font-weight: lighter;
+  color: #374754;
+  width: 400px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.computer_btn {
+  padding-top: 50px;
+}
+
+.computer__button {
+  text-decoration: none;
+  padding: 16px 45px 16px 45px;
+  border-radius: 47px;
+  background: rgb(85, 92, 192);
+  color: #ffffff;
+  border: 1px solid rgb(85, 92, 192);
+}
+
+.news {
+  display: flex;
+  margin-top: 100px;
+}
+
+.about_news {
+  display: flex;
+  margin-top: 50px;
+  height: 100vh;
+  justify-content: space-around;
+}
+
+.img4 {
+  width: 550px;
+}
+
+.news_img {
+  margin-left: 70px;
+}
+
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140px;
+}
+
+.newsletter h3 {
+  color: rgba(37, 43, 66, 1);
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.newsletter h2 {
+  color: #252B42;
+  font-size: 48px;
+  font-weight: lighter;
+  line-height: 55px;
+  width: 400px;
+  margin-top: 10px;
+}
+
+.newsletter p {
+  color: rgba(55, 71, 84, 1);
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+
+.submit_class {
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+}
+
+.submit_btn {
+ 
+}
+
+.submit__button {
+  text-decoration: none;
+  padding: 16px 45px 16px 45px;
+  border-radius: 47px;
+  background: rgb(85, 92, 192);
+  color: #ffffff;
+  border: 1px solid rgb(85, 92, 192);
+}
+
+.enter_email {
+  padding: 15px 50px 15px 50px;
+  border-radius: 47px;
+  background: #F4F4F4;
+  border: 1px solid #E8E8E8;
+}
+
